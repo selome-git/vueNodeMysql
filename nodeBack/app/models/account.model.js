@@ -1,6 +1,12 @@
 module.exports=( sequelize , Sequelize ) =>{
 
     const Account = sequelize.define("account", {
+        
+
+        id:{
+            type: Sequelize.INTEGER
+        },
+
         fname:{
             type: Sequelize.STRING
         },
